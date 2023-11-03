@@ -38,6 +38,13 @@ To get started with this project, you'll need to clone the repository and set up
    pip install flask pymongo openai
    ```
 
+6. Create config.json:
+
+    ```bash
+   cp config.json.template config.json
+   ```
+   Then fill in the config.json file with your information
+
 ### Usage
 
 Now that you have set up the project, you can run it with the following command:
