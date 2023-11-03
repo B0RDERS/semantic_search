@@ -4,43 +4,16 @@ Welcome to my semantic search REST API! This is a brief guide to help you get st
 
 ## Getting Started
 
-### Installation
+### Setup
 
-To get started with this project, you'll need to clone the repository and set up your environment. You can do this using the following steps:
-
-1. Clone the repository:
+To get started with this project, clone the repository, set up your virtual environment, and create a config.json file
 
    ```bash
    git clone https://github.com/B0RDERS/semantic_search.git
-   ```
-
-2. Change to the project directory:
-
-   ```bash
    cd semantic_search
-   ```
-
-3. Create a virtual environment (optional but recommended):
-
-   ```bash
-   python -m venv venv
-   ```
-
-4. Activate the virtual environment:
-
-   ```bash
-   source venv/bin/activate
-   ```
-
-5. Install project dependencies:
-
-   ```bash
+   python -m venv env
+   source env/bin/activate
    pip install flask pymongo openai
-   ```
-
-6. Create config.json:
-
-    ```bash
    cp config.json.template config.json
    ```
    Then fill in the config.json file with your information
