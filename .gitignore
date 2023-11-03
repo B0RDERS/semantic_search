@@ -1,0 +1,10 @@
+# Ignore the 'env' directory (virtual environment)
+env/
+
+# Ignore 'config.json' file
+config.json
+
+# Ignore Python __pycache__ directories and bytecode files
+__pycache__/
+*.pyc
+*.pyo
