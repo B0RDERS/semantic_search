@@ -1,6 +1,6 @@
-# My Awesome Project
+# Semantic Seach REST
 
-Welcome to My Awesome Project! This is a brief guide to help you get started.
+Welcome to my semantic search REST API! This is a brief guide to help you get started.
 
 ## Getting Started
 
